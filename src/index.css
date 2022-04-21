@@ -395,3 +395,9 @@ textarea { height: 150px; }
         width: 200%;
     }
 }
+
+@media (min-width: 1272px) {
+    body {
+        padding-inline: 8rem;
+    }
+}

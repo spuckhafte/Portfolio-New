@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaGithubSquare, FaInstagramSquare, FaFacebookSquare, FaTwitterSquare, FaGoogle } from 'react-icons/fa';
 
 export default function Footer() {
+    console.log(window.innerWidth)
     const [copied, setCopy] = useState(false)
     function copy() {
         const text = 'rakshit240405@gmail.com';
