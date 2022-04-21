@@ -10,6 +10,26 @@ export default function Contact() {
         if (type === 'message') setContactMe({ email: contactMe.email, message: e.target.value })
     }
 
+    function isMobile() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+            return true;
+        }
+    
+        if (/android/i.test(userAgent)) {
+            return true;
+        }
+    
+        // iOS detection from: http://stackoverflow.com/a/9039885/177710
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return true;
+        }
+    
+        return false;
+    }
+
     function submitForm(e) {
         e.preventDefault()
         emailjs.sendForm('service_hee2z0k', 'template_64xiaal', e.target, 'QxntZ0JqFClXTdgbQ')
@@ -28,7 +48,7 @@ export default function Contact() {
         <div className='contact-top'>Contact Me</div>
         <form className='contact-from' onSubmit={e => submitForm(e)}>
             <div className='contact-form-cont'>
-                <input type="email" name='email' id="email" required placeholder='Email' autoComplete='off' onChange={e => updateForm(e, 'email')} value={contactMe.email} autoFocus />
+                <input type="email" name='email' id="email" required placeholder='Email' autoComplete='off' onChange={e => updateForm(e, 'email')} value={contactMe.email} autoFocus={!isMobile()} />
                 <textarea id="message" name='email' required placeholder='Message' autoComplete='off' onChange={e => updateForm(e, 'message')} value={contactMe.message}/>
                 <button type="submit">Send</button>
             </div>

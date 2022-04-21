@@ -182,7 +182,9 @@ textarea {
 }
 
 .contact-me {
+    position: relative;
     margin-top: 5rem;
+    height: 100%;
 }
 
 .contact-top {
@@ -384,7 +386,7 @@ textarea { height: 150px; }
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-100%, -90%);
+        transform: translate(-100%, -35%);
     }
     .contact-form-cont {
         display: flex;
