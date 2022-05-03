@@ -3,7 +3,7 @@ import React from 'react'
 export default function WorkRacks({ work }) {
   return (
     <div className='home-body'>
-        <div className={`pinned-works ${work.id !== 8 && 'border-bottom'}  ${work.id !== 1 && 'not-first'}`}>
+        <div className={`pinned-works ${work.id !== 9 && 'border-bottom'}  ${work.id !== 1 && 'not-first'}`}>
             <div className="pinned-work">
               <div className='work-logo work-wind-logo'>
                 <img className='work-img' src={require(`../assets/logo${work.id}.png`)}/>

@@ -282,7 +282,7 @@ textarea { height: 150px; }
     .tooltip {
         font-size: small;
         left: 50%;
-        transform: translate(-50%, 300%);
+        transform: translate(-50%, -150%);
     }
     .template {
         transform: translate(-48%, 20%);
