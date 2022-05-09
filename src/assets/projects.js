@@ -6,7 +6,7 @@ export default [
         logo: '../assets/logo0.png',
         language: 'JavaScript',
         github: 'https://github.com/spuckhafte/SpuckJs',
-        live: 'https://cdn.jsdelivr.net/gh/spuckhafte/SpuckJs@0.1.2/Spuck.js'
+        live: 'https://cdn.jsdelivr.net/gh/spuckhafte/SpuckJs@1.0.0/Spuck.js'
     },
     {
         id: 2,
