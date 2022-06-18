@@ -42,7 +42,7 @@ export default [
         logo: "../assets/logo4.png",
         language: "Javascript",
         github: "https://github.com/spuckhafte/encdenc",
-        live: "https://www.npmjs.com/package/encdenc"
+        live: "https://encdenc.netlify.app"
     },
     {
         id: 6,
