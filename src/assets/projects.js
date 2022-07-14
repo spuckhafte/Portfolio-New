@@ -56,10 +56,10 @@ export default [
     {
         id: 7,
         title: "ChitChat",
-        description: "Simple chat application with Vanilla and Node Javascript. It is a global chat room anyone can join and chat with anyone.",
+        description: "Simple chat application with SpuckJs, NodeJs and MongoDb. It is a global chat room anyone can join and chat with anyone.",
         logo: "../assets/logo6.png",
         language: "Javascript",
-        github: "https://github.com/spuckhafte/ChitChat-Renewd",
+        github: "https://github.com/spuckhafte/ChitChat-BrandNew",
         live: "https://shit-chat.netlify.app"
     },
     {
