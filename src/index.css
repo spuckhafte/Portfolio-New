@@ -2,12 +2,13 @@ body {
     font-family: 'Heebo', sans-serif;
     padding: 0;
     margin: 0;
+    background-color: #F2F3F4;
 }
 
 i {
     /* turn off italics */
     font-style: normal;
-    color: #FF6464;
+    color: #ec3939;
 }
 
 a {
@@ -104,8 +105,8 @@ textarea {
 }
 
 .home-body-top {
-    font-size: larger;
-    font-weight: normal;
+    font-size: x-large;
+    font-weight: 400;
     color: #21243D;
 }
 
@@ -113,7 +114,10 @@ textarea {
     background-color: #EDF7FA;
     padding-inline: 0;
     margin-bottom: 3rem;
-    box-shadow: #1aa8d3 0 0 20px -10px;
+    box-shadow: #A6B6C9 0 0 30px -10px;
+    border-radius: 1%;
+    padding-bottom: 1rem;
+    overflow-wrap: break-word;
 }
 
 .pinned-works {
@@ -130,7 +134,6 @@ textarea {
     width:16rem;
     height: 11rem;
     border-radius: 10px;
-    filter: sepia(20%);
 }
 
 .work-logo {
@@ -162,11 +165,11 @@ textarea {
 .work-lang {
     color: white;
     background-color: #21243D;
-    /* set width to text length */
     width: fit-content;
     padding: 0.2rem;
     padding-inline: 0.6rem;
     border-radius: 1.5rem;
+    margin-inline-end: 2px;
 }
 
 .work-links > * {
@@ -287,6 +290,9 @@ textarea { height: 150px; }
     .template {
         transform: translate(-48%, 20%);
     }
+    .work-tech {
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media (max-width: 620px) and (min-width: 435.1px) {
@@ -359,7 +365,7 @@ textarea { height: 150px; }
         height: auto;
     }
 
-    .work-wind-text .work-title, .work-wind-text .work-lang, .work-wind-text .work-description {
+    .work-wind-text .work-title, .work-wind-text, .work-wind-text .work-description {
         margin-bottom: 0.8rem;
     }
 

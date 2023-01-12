@@ -1,82 +1,79 @@
 export default [
     {
         id: 1,
-        title: 'SpuckJs',
-        description: 'An easy to use single file frontend Javascript library. It converts pure Js Objects into DOM elements. Features state and effect management.',
-        logo: '../assets/logo0.png',
-        language: 'JavaScript',
-        github: 'https://github.com/spuckhafte/SpuckJs',
-        live: 'https://spuckjs.netlify.app/'
+        title: 'SS Router',
+        description: "Simple Static Router is a lightweight, easy-to-use HTTP server that serves HTML pages. Embed variables, include scripts and styles, sub-routing and much more.",
+        logo: "router.gif",
+        language: ['Node'],
+        github: 'https://github.com/spuckhafte/ss-router',
+        live: "N/A"
+    }, {
+        id: 0,
+        title: 'Curl Chat',
+        description: "A chat app from your terminal! Chat securely, anonymously, globally or in private rooms.",
+        logo: "terminal.gif",
+        language: ["Node", "Socket.io"],
+        github: "https://github.com/spuckhafte/curl-chat"
     },
     {
         id: 2,
+        title: 'SpuckJs',
+        description: 'An easy to use single file frontend Javascript library. It converts pure Js Objects into DOM elements. Features state and effect management.',
+        logo: 'spuck.png',
+        language: ['JavaScript'],
+        github: 'https://github.com/spuckhafte/SpuckJs',
+        live: 'https://spuckjs.netlify.app/'
+    }, {
+        id: 4,
+        title: 'Ramen Bot',
+        description: 'A utility for another discord bot (Naruto based quiz bot). It reminds for new missions, shows profile, private and local leaderboards etc.',
+        logo: 'ramen.gif',
+        language: ['Node', 'MongoDb', 'Redis'],
+        github: 'https://github.com/spuckhafte/ramen',
+        live: 'https://top.gg/bot/1016043389994668073'
+    },
+    {
+        id: 3,
         title: "JSON Database",
         description: "A light weight database built upon JSON. It works as relational and non-relational database. Data stored in JSON format is well Encrypted.",
-        logo: "../assets/logo2.png",
-        language: "Javascript",
+        logo: "jdb.png",
+        language: ["Node"],
         github: "https://github.com/spuckhafte/Jdb-v2",
         live: "https://www.npmjs.com/package/json-db-jdb"
     },
     {
-        id: 3,
-        title: "Cry (a crypto-bot)",
-        description: "Discord Bot based on BlockChain. Earn cries out of thin air by mining hash to validate a transaction and to make it follow certain rules.",
-        logo: "../assets/logo3.png",
-        language: "Python",
-        github: "https://github.com/spuckhafte/Cry",
-        live: "https://discord.gg/DHxRjGGW8j"
-    },
-    {
-        id: 4,
+        id: 5,
         title: "Rock Paper Scissors",
         description: "A simple RPS game built with Vanilla and Node Js. Play with your friends and see who wins.",
-        logo: "../assets/logo1.png",
-        language: "Javascript",
+        logo: "rps.gif",
+        language: ["JavaScript", "Node"],
         github: "https://github.com/spuckhafte/liverps2",
         live: "https://liverockpaperscissor.netlify.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: "EncDeEnc",
-        description: "Encryption algorithm built with Javascript. It provides different encrypted value for same input, but decrypted value is always correct.",
-        logo: "../assets/logo4.png",
-        language: "Javascript",
+        description: "Get varying and randomized encryption for the same data everytime, still the decryption is 100% correct and original.",
+        logo: "encdenc.gif",
+        language: ["JavaScript"],
         github: "https://github.com/spuckhafte/encdenc",
         live: "https://encdenc.netlify.app"
     },
     {
-        id: 6,
+        id: 7,
         title: "Tictactoe",
         description: "A simple tic tac toe game built with Python. It is a terminal based game. It contains 3 AI levels: easy, medium and hard.",
-        logo: "../assets/logo5.png",
-        language: "Python",
+        logo: "tic.gif",
+        language: ["Python"],
         github: "https://github.com/spuckhafte/New-TicTacToe",
         live: "https://replit.com/@spuckhafte/TicTacToe#main.py"
     },
     {
-        id: 7,
-        title: "ChitChat",
-        description: "Simple chat application with SpuckJs, NodeJs and MongoDb. It is a global chat room anyone can join and chat with anyone.",
-        logo: "../assets/logo6.png",
-        language: "Javascript",
-        github: "https://github.com/spuckhafte/ChitChat-BrandNew",
-        live: "https://shit-chat.netlify.app"
-    },
-    {
-        id: 8,
-        title: "Chrome Discord RP",
-        description: "Discord RPC for chrome. Show others what you are searching, browsing or watching in Chrome.",
-        logo: "../assets/logo7.png",
-        language: "Javascript",
-        github: "https://github.com/spuckhafte/chrome-rpc",
-        live: "N/A"
-    }, 
-    {
         id: 9,
         title: "Be Safe",
-        description: "A very simple game built with C#-Unity. Blocks are falling, you are the rod, be safe!",
-        logo: "../assets/logo7.png",
-        language: "C#-Unity",
+        description: "A very simple game built with C# and Unity. Blocks are falling, you are the rod, be safe!",
+        logo: "safe.png",
+        language: ["C#", "Unity"],
         github: "N/A",
         live: "https://play.unity.com/mg/other/desktop-v-80"
     }

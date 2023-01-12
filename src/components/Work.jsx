@@ -8,7 +8,7 @@ export default function Work() {
         <div className='work-top'>Work</div>
         <div className='work-racks'>
           {
-            Works.map(work => <WorkRacks key={work.id} work={work} />)
+            Works.map((work, i) => <WorkRacks iter={i} key={i} work={work} />)
           }
         </div>
     </div>
