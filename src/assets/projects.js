@@ -13,7 +13,8 @@ export default [
         description: "A chat app from your terminal! Chat securely, anonymously, globally or in private rooms.",
         logo: "terminal.gif",
         language: ["Node", "Socket.io"],
-        github: "https://github.com/spuckhafte/curl-chat"
+        github: "https://github.com/spuckhafte/curl-chat",
+        live: "https://github.com/spuckhafte/curl-chat/#how"
     },
     {
         id: 2,
