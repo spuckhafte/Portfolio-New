@@ -2,7 +2,7 @@ export default [
     {
         id: 2,
         title: "Breezer.js",
-        description: "A reactive, declarative and concise framework for Discordjs. Features state management, button signals and many more coming soon!",
+        description: "A reactive, declarative and concise framework for Discordjs. Features state management, button signals and much more coming soon!",
         logo: "breezer.png",
         language: ["Typescript", "Discord.js"],
         github: "https://github.com/spuckhafte/breezer.js",
