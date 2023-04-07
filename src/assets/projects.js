@@ -1,5 +1,13 @@
 export default [
     {
+        id: 2,
+        title: "Breezer.js",
+        description: "A reactive, declarative and concise framework for Discordjs. Features state management, button signals and many more coming soon!",
+        logo: "breezer.png",
+        language: ["Typescript", "Discord.js"],
+        github: "https://github.com/spuckhafte/breezer.js",
+        live: "https://breezerjs.netlify.app"
+    }, {
         id: 1,
         title: 'SS Router',
         description: "Simple Static Router is a lightweight, easy-to-use HTTP server that serves HTML pages. Embed variables, include scripts and styles, sub-routing and much more.",
@@ -15,25 +23,7 @@ export default [
         language: ["Node", "Socket.io"],
         github: "https://github.com/spuckhafte/curl-chat",
         live: "https://github.com/spuckhafte/curl-chat/#how"
-    },
-    {
-        id: 2,
-        title: 'SpuckJs',
-        description: 'An easy to use single file frontend Javascript library. It converts pure Js Objects into DOM elements. Features state and effect management.',
-        logo: 'spuck.png',
-        language: ['JavaScript'],
-        github: 'https://github.com/spuckhafte/SpuckJs',
-        live: 'https://spuckjs.netlify.app/'
     }, {
-        id: 4,
-        title: 'Ramen Bot',
-        description: 'A utility for another discord bot (Naruto based quiz bot). It reminds for new missions, shows profile, private and local leaderboards etc.',
-        logo: 'ramen.gif',
-        language: ['Node', 'MongoDb', 'Redis'],
-        github: 'https://github.com/spuckhafte/ramen',
-        live: 'https://top.gg/bot/1016043389994668073'
-    },
-    {
         id: 3,
         title: "JSON Database",
         description: "A light weight database built upon JSON. It works as relational and non-relational database. Data stored in JSON format is well Encrypted.",
